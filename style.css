@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+     color: white;
+}
+
+header{
+     margin-bottom: 84px;
+    background-image:linear-gradient(rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.4)), url(image/hero.jpg);
+    background-size: cover;
+     background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+h1{
+    font-size: 50px;
+    margin-bottom: 32px;
+    line-height: 1;
+}
+
+
+.container{
+  margin: 0;
+  /* width: 1200px;  */
+  /* align-items: center; */
+  position: relative;
+}
+
+.inner-header{
+    width: 50%;
+}
+
+.container-header{
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.p-4{
+    font-size: 20px;
+     line-height: 1.4;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+
+.btn{
+    background-color:darkorange;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+section{
+    color:#343a40 ;
+    margin-bottom: 20px;
+    width: 1200px;
+    margin: 20px;
+}
+
+section h2{
+    margin-bottom: 42px;
+    font-size: 48px;
+}
+
+section p{
+    font-size: 22px;
+    font-weight: 500;
+}
